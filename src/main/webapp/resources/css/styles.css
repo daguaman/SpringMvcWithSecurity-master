@@ -1,0 +1,181 @@
+/* Login page styles*/
+html,body {
+	background: url("../images/bg.jpg") repeat scroll 0 0 #E3EEF0;
+	font-family: arial;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+#horizon {
+    display: block;
+    height: 1px;
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    visibility: visible;
+    width: 100%;
+}
+
+#loginBox {
+    font-size: 12px;
+    height: 240px;
+    left: 50%;
+    margin-left: -125px;
+    position: absolute;
+    top: -120px;
+    visibility: visible;
+    width: 250px;
+}
+
+
+#loginForm {
+	background: none repeat scroll 0 0 #D2E0EA;
+	border: 1px solid #899CAA;
+	border-radius: 3px 0 3px 3px;
+	margin-top: -1px;
+	padding: 6px;
+	width: 248px;
+	text-align: left;
+}
+
+fieldset#body {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 3px 3px 3px 3px;
+	margin: 0;
+	padding: 5px 5px 5px 10px !important;
+}
+
+#loginForm fieldset {
+	border: 0 none;
+	display: block;
+	margin: 0 0 12px;
+}
+
+#loginForm span {
+	display: block;
+	padding: 7px 0 4px;
+	text-align: center;
+}
+
+#loginForm span a {
+	color: #3A454D;
+	font-size: 12px;
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+#loginForm #body fieldset label {
+	display: block;
+	float: none;
+	margin: 0 0 6px;
+}
+
+#body label {
+	color: #3A454D;
+	display: block;
+	float: left;
+	margin: 9px 0 0;
+}
+
+#loginForm input {
+	border: 1px solid #899CAA;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 3px #BBBBBB inset;
+	color: #3A454D;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px;
+	width: 92%;
+}
+
+#loginForm #login {
+	background: url("../images/loginbtnbg.png") repeat-x scroll 0 0 #339CDF;
+	border: 1px solid #339CDF;
+	box-shadow: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: left;
+	margin: 0 12px 0 0;
+	padding: 7px 10px 8px;
+	text-shadow: 0 -1px #278DB8;
+	width: auto;
+}
+
+#body label {
+	color: #3A454D;
+	display: block;
+	float: left;
+	margin: 9px 0 0;
+}
+
+#loginForm #checkbox {
+	border: 0 none;
+	float: left;
+	margin: 1px 9px 0 0;
+	padding: 0;
+	width: auto;
+}
+
+.message {
+	color: red;
+	text-align: center;
+}
+
+/*Home page styles */
+#banner {
+	display: block;
+}
+
+#username {
+	color: red;
+	font-weight: bold;
+}
+
+#menu-username {
+	color: red;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+}
+
+#header {
+	width: 400px;
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 30px;
+	margin: 20px;
+	margin-left: 70px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color: #B0BABF;
+	-webkit-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+#info {
+	width: 500px;
+	height: 300px;
+	padding: 15px;
+	margin: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color: #B0BABF;
+	-webkit-border-radius: 20px;
+}
